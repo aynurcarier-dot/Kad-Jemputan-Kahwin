@@ -153,7 +153,7 @@
                 <li id="location-btn"><i class='bx bx-map'></i></li>
                 <li id="music-btn"><i class='bx bx-music'></i></li>
                 <li id="rsvp-btn"><i class='bx bx-envelope'></i></li>
-                <li id="contact-btn"><i class='bx bx-phone'></i></li>
+                
             </ul>
         </section>
     </div>
@@ -161,7 +161,7 @@
     <!-- Bottom Modal -->
     <div id="calendar-menu" class="toggle-menu">
         <div class="calendar">
-            <h1>Calendar</h1>
+            <h1>Təqvim</h1>
             <p>
                 <span>29 Aprek 2026</span>
                 <span>|</span>
@@ -183,13 +183,13 @@
     <div id="location-menu" class="toggle-menu">
         <div class="location">
             <h1>Lokasi</h1>
-            <p>10A Jalan Seri Ampang 2</p>
-            <p>Kampung Pisang</p>
-            <p>47300 Subang, Selangor</p>
+            <p>Meridian garden</p>
+            <p>Bakı şəhəri</p>
+        
             <div class="button" onclick="openGoogleMaps()">
                 <button class="google">
                     <i class='bx bxl-google'></i>
-                    <span>Maps</span>
+                    <span>Xəritə</span>
                 </button>
                 <button class="waze" onclick="openWaze()">
                     <i class="fa-brands fa-waze"></i>
@@ -236,23 +236,23 @@
 
     <div id="ucapan-menu" class="toggle-menu">
         <div class="ucapan-tetamu">
-            <h1>Sampaikan Ucapan</h1>
+            <h1>Təbriklərinizi yazın</h1>
             <form id="form-ucapan" class="form-ucapan" action="insert_message.php" method="POST">
-                <label for="name">Nama Anda</label>
+                <label for="name">Adınız</label>
                 <input type="text" name="name" placeholder="Uzumaki Naruto" required>
 
-                <label for="ucapan">Ucapan</label>
+                <label for="ucapan">Xoşbəxt olun</label>
                 <textarea name="message" id="ucapan" cols="30" rows="10" placeholder="Selemat pengantin baru..."
                     required></textarea>
 
                 <div class="button">
                     <button type="submit" class="hantar" id="hantar">
                         <i class='bx bxs-paper-plane'></i>
-                        <span>Hantar</span>
+                        <span>Göndər</span>
                     </button>
                     <button class="tutup">
                         <i class='bx bx-x'></i>
-                        <span>Tutup</span>
+                        <span>Bağla</span>
                     </button>
                 </div>
             </form>
