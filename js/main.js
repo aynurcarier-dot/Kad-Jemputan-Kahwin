@@ -101,11 +101,11 @@ setupCountdown(".campaign-0", new Date("Apr 29, 2026 18:00:00").getTime());
  *  Add to Calendar
   ======================================================= */
 const event = {
-    title: "Jemputan Kenduri Kahwin John & Sarah",
-    startDate: "99991231T033000Z", // YYYYMMDDTHHmmssZ (UTC)
-    endDate: "99991231T090000Z",
-    location: "10A Jalan Seri Ampang 2, Kampung Pisang, 47300 Subang, Selangor, Malaysia",
-    description: "Kami menjemput tuan/puan hadir ke majlis perkahwinan anakanda kami.",
+    title: "Elcan & Aynur toyu",
+    startDate: "20260429T180000Z" // YYYYMMDDTHHmmssZ (UTC)
+    endDate: "20260429T230000Z",
+    location: "Meridian garden, Bakı",
+    description: "Sizi toyumuzda görməkdən şad olarıq!",
 };
 
 // Function to generate Google Calendar URL
