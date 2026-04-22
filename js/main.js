@@ -90,8 +90,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
 
 });
+setupCountdown(".campaign-0", new Date("Apr 29, 2026 18:00:00").getTime());
 
-setupCountdown(".campaign-0", new Date().getMilliseconds(), 1924920000000);
 
 
 
